@@ -1,0 +1,174 @@
+
+.nav-a{
+    color: white;
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 300px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+ul{
+    width: 700px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+}
+h1{
+    font-size: 25px;
+}
+
+#main-container {
+    width: 650px;
+    /* background-color: ; */
+    margin: 50px auto;
+    display: flex;
+}
+
+#left{
+    flex: 2;
+
+}
+
+#right{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.top {
+    height: 125px;
+    background-color: aqua;
+    border-bottom: 2px solid grey;
+}
+
+.name {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.seattle {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.info {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.map-marker, .gear {
+    height: 15px;
+    padding-right: 5px;
+    
+}
+
+.user-circle {
+    height: 100px;
+    margin-top: 75px;
+    margin-left: 50px;
+
+}
+
+.edit{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+h3{
+    background-color: darkslategray;
+    color: lightgray;
+    padding: 10px;
+    margin: 0px;
+}
+
+#number{
+    background-color: lightgray;
+    color: darkslategray;
+    padding: 0px 5px;
+    border-radius: 50%;
+    /* width: 50px; */
+}
+
+#request div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#request img{
+    margin-right: 20px;
+    /* display: inline-block; */
+}
+
+.dojo{
+    font-weight: 700;
+    padding: 5px;
+}
+.march{
+    color: darkslategray;
+    padding: 5px;
+}
+
+#num{
+    background-color: lightgray;
+    color: darkslategray;
+    padding: 0px 5px;
+    border-radius: 50%;
+}
+
+#connection p{
+    display: flex;
+    align-items: center;
+}
+
+.request-name{
+    margin-right: 20px;
+}
+
+#connection img{
+    margin: 20px;
+}
+
+#education{
+    margin-top: 20px;
+}
+
+#connection, #request, #education, #top-border{
+    border: 2px solid gray;
+}
+
+#request{
+    margin-bottom: 20px;
+}
+
+.more{
+    padding: 10px;
+    border-top: 2px solid gray;
+}
+
+
+
+
+
